@@ -1,0 +1,28 @@
+{
+  "name": "ts-react-drills",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AIに頼らず解く TypeScript / React 基礎〜応用ドリル",
+  "scripts": {
+    "test": "vitest --typecheck",
+    "test:once": "vitest run --typecheck",
+    "ui": "vitest --ui --typecheck",
+    "solutions": "SOLUTIONS=1 vitest run --typecheck"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^10.4.2",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.8",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.2",
+    "@vitest/ui": "^5.0.4",
+    "jsdom": "^29.1.1",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.4"
+  }
+}
